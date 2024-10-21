@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 900px;
+    background-color: #F0F0F0;
+}
+
+.header {
+    background-color: #826141;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.text-content {
+    width: 60%;
+    color: #333;
+}
+
+.text-content h1 {
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.image-content img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+.footer {
+    background-color: #826141;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer .contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin: 5px 0;
+    right: 10px;
+    left: 5px;
+}
+
+.contato {
+    position:relative;
+    text-align: left;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.horarios {
+    position:relative;
+    text-align: right;
+    bottom: 0;
+}

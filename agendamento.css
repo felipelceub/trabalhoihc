@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1050px;
+    background-color: #F0F0F0;
+}
+
+.header {
+    background-color: #826141;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.form-box {
+    background-color: #30744F;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-box textarea {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.form-box textarea {
+    width: 80%;
+    height: 75px;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+    border: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #826141;
+    color: white;
+}
+
+.input2{
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    justify-content: center;
+    position: relative;
+    right: 0px;
+    
+}
+
+.footer {
+    background-color: #826141;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer .contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin: 5px 0;
+    right: 10px;
+    left: 5px;
+}
+
+.contato {
+    position:relative;
+    text-align: left;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.horarios {
+    position:relative;
+    text-align: right;
+    bottom: 0;
+}

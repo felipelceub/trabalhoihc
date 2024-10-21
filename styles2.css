@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    background-color: #F0F0F0;
+}
+
+.header {
+    background-color: #826141;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.container-card-oficina{
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    font-weight: bold;
+
+
+
+}
+
+.card1{
+    width: 10vw;
+    border: 0px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #30744F;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: justify;
+    font-size: 20px;
+
+}
+.card2{
+    width: 10vw;
+    border: 0px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #30744F;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+.card3{
+    width: 10vw;
+    border: 0px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #30744F;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.card4{
+    width: 10vw;
+    border: 0px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #30744F;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.situacoes{
+    padding: 16px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+h2{
+    justify-content: center;
+}
+
+.nossamecanica{
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #30744F;
+    color: white;
+    
+
+}
+
+.img1{
+    padding: 16px;
+    margin-left: 40px;
+}
+
+.img2{
+    padding: 16px;
+}
+
+.img3{
+    padding: 16px;
+    margin-left: 40px;
+}
+
+.img4{
+    padding: 16px;
+}
+
+.footer {
+    background-color: #826141;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.footer .contact-info {
+    display: flex;
+}
+
+.footer p {
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+
+.contato {
+    position:relative;
+    text-align: left;
+    bottom: 0;
+}
+
+.horarios {
+    position:relative;
+    text-align: right;
+    bottom: 0;
+}
